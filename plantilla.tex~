@@ -2,7 +2,7 @@
 % Basada en la clase y plantilla creada por Juan Alberto Ramírez Macías - juan.ramirez@upb.edu.co
 % V 1.0 / Rafael Ernesto Poveda - raerpo@gmail.com
 % 06/05/12
-% Codigo disponible en https://github.com/raerpo/UPNTesis
+% Codigo disponible en http://github.com/raerpo
 
 \documentclass[]{UPN}
 \usepackage{graphicx}

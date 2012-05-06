@@ -2,7 +2,7 @@ Plantilla y clase para la realización de trabajos de grado de la universidad pe
 
 Recomendaciones:
 
--> Si la plantilla con compila es probable que falten los paquetes latex necesarios. La plantilla fue creada en Ubuntu 12.04 con la siguiente instalación de latex:
+-> Si la plantilla no compila es probable que falten los paquetes latex necesarios. La plantilla fue creada en Ubuntu 12.04 con la siguiente instalación de latex:
 
 sudo aptitude install texlive-latex-base texlive-latex-recommended texlive-latex-extra
 

@@ -17,6 +17,7 @@
 % Caracteres especiales del español 
 \RequirePackage[utf8]{inputenc}
 
+
 % Dimensiones del papel - Tamaño carta
 \setlength{\paperwidth}{8.5in}
 \setlength{\paperheight}{11in}

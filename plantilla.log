@@ -1,17 +1,11 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.9)  9 SEP 2012 19:47
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.10)  15 SEP 2012 23:39
 entering extended mode
  %&-line parsing enabled.
 **plantilla.tex
 (./plantilla.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, farsi, arabic, croatian, bulgarian, ukrainian, russian, czech, slov
-ak, danish, dutch, finnish, french, basque, ngerman, german, german-x-2009-06-1
-9, ngerman-x-2009-06-19, ibycus, monogreek, greek, ancientgreek, hungarian, san
-skrit, italian, latin, latvian, lithuanian, mongolian2a, mongolian, bokmal, nyn
-orsk, romanian, irish, coptic, serbian, turkish, welsh, esperanto, uppersorbian
-, estonian, indonesian, interlingua, icelandic, kurmanji, slovenian, polish, po
-rtuguese, spanish, galician, catalan, swedish, ukenglish, pinyin, loaded.
+yphenation, loaded.
 (./UPN.cls
 Document Class: UPN 2012/05/05 Trabajo de grado UPN
 (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
@@ -549,12 +543,12 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 ] (./plantilla.aux) ) 
 Here is how much of TeX's memory you used:
- 5247 strings out of 493848
- 73317 string characters out of 1152824
- 144768 words of memory out of 3000000
- 8410 multiletter control sequences out of 15000+50000
+ 5247 strings out of 495061
+ 73317 string characters out of 1182621
+ 143788 words of memory out of 3000000
+ 8311 multiletter control sequences out of 15000+50000
  10062 words of font info for 39 fonts, out of 3000000 for 9000
- 714 hyphenation exceptions out of 8191
+ 28 hyphenation exceptions out of 8191
  38i,9n,36p,615b,293s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/c
 mbx12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx8.pfb></
@@ -563,7 +557,7 @@ xmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-texlive/f
 onts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texmf-texlive/fonts/type1/pu
 blic/amsfonts/cm/cmti12.pfb></usr/share/texmf-texlive/fonts/type1/public/amsfon
 ts/cm/cmtt12.pfb>
-Output written on plantilla.pdf (10 pages, 96306 bytes).
+Output written on plantilla.pdf (10 pages, 96299 bytes).
 PDF statistics:
  122 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)

@@ -1,21 +1,11 @@
-% Plantilla para la realización de trabajos de grado de la Universidad Pedagógica Nacional
+% Plantilla no oficial para la realización de trabajos de grado de la Universidad Pedagógica Nacional
 % Basada en la clase y plantilla creada por Juan Alberto Ramírez Macías - juan.ramirez@upb.edu.co
 % V 1.0 / Rafael Ernesto Poveda - raerpo@gmail.com
 % 06/05/12
 % Codigo disponible en https://github.com/raerpo/UPNTesis
 
-\documentclass[]{UPN}
-\usepackage{graphicx}
-\usepackage{amsfonts}
-\usepackage{amsmath}
-\usepackage[usenames,dvipsnames]{color}
+\input{iniciar_plantilla} % No quitar ni modificar esta linea. El archivo "iniciar_plantilla.tex" contiene las opciones de inicialización de la plantilla. 
 
-%Paquete de configuración de los hipervinculos internos del pdf
-\usepackage{hyperref}
-\hypersetup{colorlinks=true,linkcolor=black,linktoc=all,citecolor=black,}
-
-%<---------------------------- Desde aqui se modifica la plantilla ---------------------------------------->
-%<--------------------------------------------------------------------------------------------------------->
 
 \title{PLANTILLA \LaTeX ~PARA LA CREACIÓN DE TRABAJOS DE GRADO DE LA LICENCIATURA EN ELECTRÓNICA UNIVERSIDAD PEDAGÓGICA NACIONAL}
 \author{PRIMER AUTOR DEL TRABAJO\\SEGUNDO AUTOR DEL TRABAJO\\TERCER AUTOR DEL TRABAJO} 
@@ -45,24 +35,19 @@ relevantes redactados en prosa, no enunciados), metodología, conclusiones y fec
 resumen.
 \end{RAE}
 
+
 \tabladecontenido
 \listadefiguras
 \listadetablas
 
-\section{INTRODUCCIÓN}
-Esta plantilla fue creada con el fin de facilitar la creación de los trabajos de grado de la Universidad Pedagógica Nacional, especialmente, los de la licenciatura en electrónica. La clase \LaTeX~\textbf{"UPN.cls"} esta basada en la clase \textbf{"upbthesis.cls"}\footnote{http://goo.gl/0vblP} creada por \textbf{Juan Alberto Ramírez Macías} de la Universidad Pontificia Bolivariana. Esta clase usa por defecto tamaño de letra {\tt 12pt}, interlineado de {\tt 1.5}, y hojas tamaño carta\footnote{Estos valores se pueden modificar desde el código fuente de la clase UPN.cls}.
+\pagestyle{fancy}
 
-Para definir secciones y sub-secciones se usan los comandos "section", "subsection", "subsubsection", y  "paragraph". De esta manera se puede conseguir un nivel de identación de hasta 4, tal y como se ve en la sección \ref{Ejemplo_seccion}
+% Importamos los archivos que se encuentran en la carpeta "Capitulos"
+% para la realizacion de trabajos largos como este, es importante mantener una modularidad que permita
+% simplificar la realizacion del documento.
 
-La inclusión de imágenes y tablas se realiza de la misma manera como se haría en cualquier clase \LaTeX.
+\include{Capitulos/introduccion}
+\include{Capitulos/seccion2} 
 
-\section{Ejemplo de seccion} \label{Ejemplo_seccion}
-Este es el texto que va adentro de un {\tt section}.
-\subsection{Ejemplo de un subseccion}
-Este es el texto que va adentro de un {\tt subsection}.
-\subsubsection{Ejemplo de subsubseccion}
-Este es el texto que va adentro de un {\tt subsubsection}.
-\paragraph{Ejemplo de paragraph}
-Este es el texto que va adentro de un {\tt paragraph}.
 
 \end{document}

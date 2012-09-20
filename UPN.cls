@@ -23,7 +23,7 @@
 \setlength{\paperheight}{11in}
 % Dimensiones del texto
 \setlength{\textwidth}{156mm}%
-\setlength{\textheight}{219.4mm}
+\setlength{\textheight}{209.4mm}
 % Margenes
 \if@twoside
 	\setlength{\oddsidemargin}{14.6mm}
@@ -46,7 +46,7 @@
 }
 
 \setlength{\topmargin}{4.6mm}
-\setlength{\headsep}{0pt}
+\setlength{\headsep}{10mm}
 \setlength{\headheight}{0pt}
 \setlength{\footskip}{15mm}
 \setlength{\parskip}{12pt}
@@ -124,18 +124,21 @@
 % Estilos de las secciones, subsecciones, subsubsecciones, parrafos y subparrafos
 \newcommand\section{\if@openright\cleardoublepage\else\clearpage\fi
 																	 \vspace*{-10mm}
-																	 \@startsection{section}{1}{0pt}%
+																	 \@startsection{section}{1}{0pt}
                                    {-3\baselineskip}
                                    {2\baselineskip}
                                    {\centering\normalfont\normalsize\bfseries\MakeUppercase}}
+                                   
 \newcommand\subsection{\@startsection{subsection}{2}{0pt}
                                      {-2\baselineskip}
                                      {\baselineskip}
                                      {\normalfont\normalsize\bfseries\MakeUppercase}}
+                                     
 \newcommand\subsubsection{\@startsection{subsubsection}{3}{0pt}
                                      {-\baselineskip}
                                      {0.25\baselineskip}
                                      {\normalfont\normalsize\itshape}}
+                                     
 \newcommand\paragraph{\@startsection{paragraph}{4}{0pt}
                                     {-0.5\baselineskip}
                                     {-1em}
@@ -331,12 +334,14 @@
     \section*{\MakeUppercase\listfigurename}%
     \begin{flushright}{P\'{a}g.}\end{flushright}
     \@starttoc{lof}%
+    \thispagestyle{empty}
     }
 \newcommand*\l@figure{\@dottedtocline{1}{0pt}{2.3em}}
 \newcommand\listadetablas{%
     \section*{\listtablename}%
     \begin{flushright}{P\'{a}g.}\end{flushright}
     \@starttoc{lot}%
+    \thispagestyle{empty}
     }
 \let\l@table\l@figure 
 
